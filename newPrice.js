@@ -15,7 +15,7 @@ function newPrice(currentPrice , discount ) {
 }
 
 
-const result = newPrice(1500, 20);
+// const result = newPrice(1500, 20);
 // const result = newPrice(2000, 15);
 // const result = newPrice(1200, 7);
 // const result = newPrice("1000", 10);

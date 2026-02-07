@@ -10,7 +10,7 @@ function validOtp(otp) {
     };
 }
 
-const getOtp = validOtp("ph-10985");
+// const getOtp = validOtp("ph-10985");
 // const getOtp = validOtp("ph-29456");
 // const getOtp = validOtp("dh-10985");
 // const getOtp = validOtp(12310985);
