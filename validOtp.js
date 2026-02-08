@@ -1,7 +1,9 @@
 /*function signature/sample */
 function validOtp(otp) {
     // You have to write your code here
-    if(typeof otp !== 'string' || !otp.startsWith('ph-')){
+    if(typeof otp !== 'string'){
+        return 'Invalid';
+    }else if(!otp.startsWith('ph-')){
         return false;
     }else if(!otp.length >= 8 || otp.length < 8){
         return false;

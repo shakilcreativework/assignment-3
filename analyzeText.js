@@ -1,5 +1,5 @@
 function analyzeText(str){
-    if(typeof str !== 'string'){
+    if(typeof str !== 'string' || str === ''){
         return 'Invalid';
     }else{
         const textSpilt = str.split(' ');
